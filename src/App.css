@@ -1,0 +1,76 @@
+:root {
+  --ppmessage-main-height: min(calc(100vh - 80px), 688px);
+  --ppmessage-main-right: 8px;
+  --ppmessage-main-bottom: 70px;
+  --ppmessage-main-width: 400px;
+
+  --ppmessage-launcher-height: 60px;
+  --ppmessage-launcher-width: 60px;
+  --ppmessage-launcher-right: 8px;
+  --ppmessage-launcher-bottom: 2px;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.Fixed-iframe-ppmessage-main {
+  position: fixed;
+  border: 4px solid black;
+  width: var(--ppmessage-main-width);
+  min-width: var(--ppmessage-main-width);
+  max-width: var(--ppmessage-main-width);
+  height: var(--ppmessage-main-height);
+  max-height: var(--ppmessage-main-height);
+  min-height: var(--ppmessage-main-height);
+  right: var(--ppmessage-main-right);
+  bottom: var(--ppmessage-main-bottom);
+}
+
+.Fixed-iframe-ppmessage-launcher {
+  position: fixed;
+  width: var(--ppmessage-launcher-width);
+  min-width: var(--ppmessage-launcher-width);
+  max-width: var(--ppmessage-launcher-width);
+  height: var(--ppmessage-launcher-height);
+  max-height: var(--ppmessage-launcher-height);
+  min-height: var(--ppmessage-launcher-height);
+  right: var(--ppmessage-launcher-right);
+  bottom: var(--ppmessage-launcher-bottom);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(460deg);
+  }
+}
