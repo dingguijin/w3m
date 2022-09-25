@@ -4,13 +4,11 @@ import styled, { keyframes } from 'styled-components'
 const openAnimation = keyframes`
 0% { height: 0px; min-height: 0px; max-height: 0px; min-width: 0px; max-width: 0px; width: 0px;}
 30% { height: 30%; min-height: 30%; max-height: 30%; min-width: 30%; max-width: 30%; width: 30%;}
-40% { height: 40%; min-height: 40%; max-height: 40%; min-width: 40%; max-width: 40%; width: 40%;}
 100% { height: 100%; min-height: 100%;  max-height: 100%; min-width:100%;  max-width:100%;  width:100%;}
 `
 const closeAnimation = keyframes`
 0% { height: 100%; min-height: 100%;  max-height: 100%; min-width:100%;  max-width:100%;  width:100%;}
-30% { height: 40%; min-height: 40%; max-height: 40%; min-width: 40%; max-width: 40%; width: 40%;}
-40% { height: 30%; min-height: 30%; max-height: 30%; min-width: 30%; max-width: 30%; width: 30%;}
+30% { height: 70%; min-height: 70%; max-height: 70%; min-width: 70%; max-width: 70%; width: 70%;}
 100% { height: 0px; min-height: 0px; max-height: 0px; min-width: 0px; max-width: 0px; width: 0px;}
 `
 

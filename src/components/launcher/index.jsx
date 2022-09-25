@@ -22,14 +22,14 @@ const Some = styled.div`
     `;
 
 const chevAnimation = keyframes`
-0% {transform: scale(0) rotate(290deg);}
-30% {transform: scale(30%) rotate(90deg);}
+0% {transform: scale(30%) rotate(290deg);}
+30% {transform: scale(60%) rotate(90deg);}
 100% {transform: scale(100%) rotate(0deg);}
 `;
 
 const bubbleAnimation = keyframes`
-0% {transform: scale(0) rotate(290deg);}
-30% {transform: scale(30%) rotate(90deg);}
+0% {transform: scale(0) rotate(90deg);}
+30% {transform: scale(30%) rotate(60deg);}
 100% {transform: scale(100%) rotate(0deg);}
 `;
 
